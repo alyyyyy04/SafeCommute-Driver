@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SafeCommute+</string>
+
+    <!-- Login -->
+    <string name="safecommute_plus">SafeCommute+</string>
+    <string name="driver_login">Driver Login</string>
+    <string name="sign_in_to_account">Sign in to your account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="forgot_password">Forgot password?</string>
+
+    <!-- Home -->
+    <string name="driver_home">Driver HOME</string>
+    <string name="hello_driver">Hello, Driver</string>
+    <string name="gps_status">GPS Status</string>
+    <string name="connected_active">Connected &amp; Active</string>
+    <string name="signal_strength">Signal Strength</string>
+    <string name="excellent_satellites">Excellent (4 satellites)</string>
+    <string name="trips_today">Trips Today</string>
+    <string name="distance">Distance</string>
+    <string name="trips_count">12</string>
+    <string name="distance_km">87 km</string>
+    <string name="emergency_sos">Emergency SOS</string>
+    <string name="tap_to_send_alert">Tap to send alert to operator</string>
+    <string name="submit_report">Submit Report</string>
+    <string name="notifications">Notifications</string>
+    <string name="route_update">Route Update</string>
+    <string name="route_update_message">Route 17 - Minor traffic delay at Fuente Osmeña. Alternative route suggested.</string>
+    <string name="safety_alert">Safety Alert</string>
+    <string name="safety_alert_message">Heavy rain expected in IT Park area. Drive with caution.</string>
+    <string name="system_notification">System Notification</string>
+    <string name="system_notification_message">Your monthly safety compliance report is ready for review.</string>
+    <string name="min_ago">10 min ago</string>
+    <string name="min_ago_25">25 min ago</string>
+    <string name="hour_ago">1 hour ago</string>
+
+    <!-- Emergency SOS Dialog -->
+    <string name="emergency_sos_title">Emergency SOS</string>
+    <string name="emergency_sos_instruction">Select emergency type and send alert to operator. Tap twice for quick send.</string>
+    <string name="medical">Medical</string>
+    <string name="hijack">Hijack</string>
+    <string name="breakdown">Breakdown</string>
+    <string name="accident">Accident</string>
+    <string name="fire">Fire</string>
+    <string name="road_hazard">Road Hazard</string>
+    <string name="cancel">Cancel</string>
+    <string name="send_alert">Send Alert</string>
+
+    <!-- Inbox -->
+    <string name="driver_inbox">Driver inbox</string>
+    <string name="view_messages_from_operator">View messages from operator</string>
+    <string name="badge_new">New</string>
+    <string name="route_change_notification">Route Change Notification</string>
+    <string name="route_change_preview">Your route has been temporarily modified due to road construction on Osmeña Blvd. Please follow the updated…</string>
+    <string name="vehicle_maintenance_reminder">Vehicle Maintenance Reminder</string>
+    <string name="maintenance_preview">Bus 17 is scheduled for routine maintenance on December 5th. Please ensure the vehicle is at the depot by 6:00 AM.</string>
+    <string name="schedule_adjustment">Schedule Adjustment</string>
+    <string name="schedule_preview">Your shift on November 30th has been adjusted. New start time: 7:00 AM instead of 6:00 AM.</string>
+    <string name="safety_protocol_update">Safety Protocol Update</string>
+    <string name="safety_protocol_preview">New COVID-19 safety guidelines have been implemented. Please review the attached document in your next briefing.</string>
+    <string name="operations_center">Operations Center</string>
+    <string name="fleet_manager">Fleet Manager</string>
+    <string name="safety_department">Safety Department</string>
+    <string name="hours_ago_2">2 hours ago</string>
+    <string name="hours_ago_5">5 hours ago</string>
+    <string name="days_ago_2">2 days ago</string>
+    <string name="day_ago_1">1 day ago</string>
+
+    <!-- Profile -->
+    <string name="driver_profile">Driver Profile</string>
+    <string name="your_account_information">Your account information</string>
+    <string name="driver_name">Juan Dela Cruz</string>
+    <string name="driver_id">ID: DRV-2024-1234</string>
+    <string name="active">Active</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_value">+63 912 345 6789</string>
+    <string name="email_address">Email Address</string>
+    <string name="email_value">juandelacruz@safecommute.com</string>
+    <string name="license_number">License Number</string>
+    <string name="license_value">N01-23-456789</string>
+    <string name="employment_date">Employment Date</string>
+    <string name="employment_value">January 15, 2023</string>
+    <string name="current_assignment">Current Assignment</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="vehicle_value">Bus 17</string>
+    <string name="route">Route</string>
+    <string name="route_value">Route 17 - City Center Loop</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="general_settings">General Settings</string>
+    <string name="emergency_sos_preferences">Emergency SOS Preferences</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_inbox">Inbox</string>
+    <string name="nav_profile">Profile</string>
+</resources>
