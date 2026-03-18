@@ -1,13 +1,11 @@
 package com.example.safecommute_driver
 
-import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.safecommute_driver.databinding.DialogEmergencySosBinding
 import com.example.safecommute_driver.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -34,26 +32,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun showEmergencySosDialog() {
-        val dialogBinding = DialogEmergencySosBinding.inflate(layoutInflater)
-        val dialog = AlertDialog.Builder(requireContext())
-            .setView(dialogBinding.root)
-            .create()
-
-        listOf(
-            dialogBinding.emergencyMedical,
-            dialogBinding.emergencyHijack,
-            dialogBinding.emergencyBreakdown,
-            dialogBinding.emergencyAccident,
-            dialogBinding.emergencyFire,
-            dialogBinding.emergencyRoadHazard
-        ).forEach { card ->
-            card.setOnClickListener { /* optional: highlight selected type */ }
-        }
-
-        dialogBinding.btnCancel.setOnClickListener { dialog.dismiss() }
-        dialogBinding.btnSendAlert.setOnClickListener { dialog.dismiss() }
-
-        dialog.show()
+        EmergencySosDialogFragment().show(parentFragmentManager, "EmergencySosDialog")
     }
 
     override fun onDestroyView() {
