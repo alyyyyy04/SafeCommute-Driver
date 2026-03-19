@@ -4,6 +4,8 @@
     <color name="primary_blue">#FF2196F3</color>
     <color name="emergency_red">#FFF44336</color>
     <color name="emergency_selected_bg">#FFFFEBEE</color>
+    <color name="emergency_option_card_bg">#FFFFFFFF</color>
+    <color name="emergency_option_stroke">#FFE0E0E0</color>
     <color name="green_active">#FF4CAF50</color>
     <color name="orange_warning">#FFFF9800</color>
     <color name="surface_light">#FFF5F5F5</color>

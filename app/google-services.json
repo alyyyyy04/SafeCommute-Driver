@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "678112192463",
+    "firebase_url": "https://safecommutedbt-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "safecommutedbt",
+    "storage_bucket": "safecommutedbt.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678112192463:android:3674ebc1d91d8e50edd4ba",
+        "android_client_info": {
+          "package_name": "com.example.safecommute"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-L5Ppe-p9_vxDu8W7Ei_N-24Cc4MUdU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678112192463:android:8f99b0265a581ea7edd4ba",
+        "android_client_info": {
+          "package_name": "com.example.safecommute_driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-L5Ppe-p9_vxDu8W7Ei_N-24Cc4MUdU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

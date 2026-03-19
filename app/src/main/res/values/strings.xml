@@ -22,7 +22,7 @@
     <string name="distance">Distance</string>
     <string name="trips_count">12</string>
     <string name="distance_km">87 km</string>
-    <string name="emergency_sos">Emergency SOS</string>
+    <string name="emergency_sos">EMERGENCY SOS</string>
     <string name="tap_to_send_alert">Tap to send alert to operator</string>
     <string name="submit_report">Submit Report</string>
     <string name="notifications">Notifications</string>
@@ -45,8 +45,8 @@
     <string name="accident">Accident</string>
     <string name="fire">Fire</string>
     <string name="road_hazard">Road Hazard</string>
-    <string name="cancel">Cancel</string>
-    <string name="send_alert">Send Alert</string>
+    <string name="cancel">CANCEL</string>
+    <string name="send_alert">SEND ALERT</string>
 
     <!-- Inbox -->
     <string name="driver_inbox">Driver inbox</string>
