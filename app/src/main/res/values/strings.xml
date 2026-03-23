@@ -10,10 +10,23 @@
     <string name="password">Password</string>
     <string name="log_in">Log In</string>
     <string name="forgot_password">Forgot password?</string>
+    <string name="login_driver_id_or_email_hint">Driver ID or email</string>
+    <string name="login_enter_driver_id_or_email">Enter your Driver ID (e.g. DRV-0003) or email</string>
+    <string name="login_enter_password">Enter your password</string>
+    <string name="login_failed">Login failed: %1$s</string>
+    <string name="login_failed_generic">Could not sign in</string>
+    <string name="login_error_wrong_email_or_password">Wrong email/ID or password. Check caps lock and try Driver@123 exactly if that is your default password.</string>
+    <string name="login_error_user_not_found">No Firebase login for this email. Ask admin to create the driver in Firebase Authentication (not only the database).</string>
+    <string name="login_error_check_project">If you are sure the password is correct, confirm this app uses the same Firebase project as the website (google-services.json).</string>
+    <string name="login_profile_not_found">Signed in, but driver profile was not found in database.</string>
+    <string name="login_profile_fetch_failed">Could not load driver profile: %1$s</string>
+    <string name="login_welcome">Welcome, %1$s</string>
+    <string name="login_must_change_password_hint">Please change your password after first login (use website or account settings when available).</string>
 
     <!-- Home -->
     <string name="driver_home">Driver HOME</string>
     <string name="hello_driver">Hello, Driver</string>
+    <string name="hello_driver_named">Hello, %1$s</string>
     <string name="gps_status">GPS Status</string>
     <string name="connected_active">Connected &amp; Active</string>
     <string name="signal_strength">Signal Strength</string>

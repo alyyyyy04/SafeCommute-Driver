@@ -25,6 +25,10 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        DriverSession.profile?.let { p ->
+            binding.tvHelloDriver.text = getString(R.string.hello_driver_named, p.displayName())
+        }
+
         binding.btnEmergencySos.setOnClickListener { showEmergencySosDialog() }
         binding.btnSubmitReport.setOnClickListener {
             startActivity(Intent(requireContext(), SubmitReportActivity::class.java))

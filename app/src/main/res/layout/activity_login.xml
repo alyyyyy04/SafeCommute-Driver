@@ -73,7 +73,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/spacing_normal"
-                        android:hint="@string/email"
+                        android:hint="@string/login_driver_id_or_email_hint"
                         app:startIconDrawable="@drawable/ic_email"
                         app:boxCornerRadiusTopStart="@dimen/input_corner_radius"
                         app:boxCornerRadiusTopEnd="@dimen/input_corner_radius"

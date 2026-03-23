@@ -1,7 +1,7 @@
 {
   "rules": {
-    ".read": "now < 1774281600000",
-    ".write": "now < 1774281600000",
+    ".read": false,
+    ".write": false,
 
     "commuters": {
       "$uid": {
@@ -10,44 +10,19 @@
       }
     },
 
+    "drivers": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+        ".write": false
+      }
+    },
+
     "emergencies": {
       "$emergencyId": {
         ".read": "auth != null",
         ".write": "auth != null",
-        ".validate": "
-          newData.hasChildren(['driverId','type','latitude','longitude','status','timestamp']) &&
-
-          newData.child('driverId').isString() &&
-          newData.child('driverId').val() === auth.uid &&
-
-          newData.child('type').isString() &&
-          (
-            newData.child('type').val() === 'Medical' ||
-            newData.child('type').val() === 'Hijack' ||
-            newData.child('type').val() === 'Breakdown' ||
-            newData.child('type').val() === 'Accident' ||
-            newData.child('type').val() === 'Fire' ||
-            newData.child('type').val() === 'Road Hazard'
-          ) &&
-
-          newData.child('latitude').isNumber() &&
-          newData.child('latitude').val() >= -90 &&
-          newData.child('latitude').val() <= 90 &&
-
-          newData.child('longitude').isNumber() &&
-          newData.child('longitude').val() >= -180 &&
-          newData.child('longitude').val() <= 180 &&
-
-          newData.child('status').isString() &&
-          (
-            newData.child('status').val() === 'pending' ||
-            newData.child('status').val() === 'acknowledged' ||
-            newData.child('status').val() === 'resolved'
-          ) &&
-
-          newData.child('timestamp').isNumber()"
+        ".validate": "newData.hasChildren(['driverId','type','latitude','longitude','status','timestamp']) && newData.child('driverId').isString() && newData.child('driverId').val() === auth.uid && newData.child('type').isString() && newData.child('type').val().length > 0 && newData.child('latitude').isNumber() && newData.child('latitude').val() >= -90 && newData.child('latitude').val() <= 90 && newData.child('longitude').isNumber() && newData.child('longitude').val() >= -180 && newData.child('longitude').val() <= 180 && newData.child('status').isString() && (newData.child('status').val() === 'pending' || newData.child('status').val() === 'acknowledged' || newData.child('status').val() === 'resolved') && newData.child('timestamp').isNumber()"
       }
     }
   }
 }
-
